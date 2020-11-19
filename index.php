@@ -11,5 +11,6 @@ else {
   <br/>
   <input type="submit">
   </form>
+  ';
 }
 ?>
