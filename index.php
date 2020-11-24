@@ -9,7 +9,12 @@ if(isset($_GET["FirstName"])) {
 }
 else {
   echo '<form action="">
-  First Name: <input type="text" name="FirstName"/>
+  <p>First Name: <input type="text" name="FirstName"/></p>
+  <p>Last Name: <input type="text" name="LastName"/></p>
+  <p>Favorite Color</p>
+  <p><input type="radio" name="FavoriteColor" value="red"/>red</p>
+  <p><input type="radio" name="FavoriteColor" value="purple"/>purple</p>
+  <p><input type="radio" name="FavoriteColor" value="green"/>green</p>
   <br/>
   <input type="submit">
   </form>';
